@@ -1,5 +1,5 @@
 
-# Azogi [![Azogi naming](https://img.shields.io/badge/naming-Azogi-blue.svg)](https://github.com/esphas/azogi)
+# Azogi [![Azogi naming](https://img.shields.io/badge/naming-Azogi-blue.svg)](https://github.com/esphas/azogi) [![npm version](https://img.shields.io/npm/v/@esphas/azogi.svg)](https://www.npmjs.com/package/@esphas/azogi) [![CircleCI](https://circleci.com/gh/esphas/azogi.svg?style=svg)](https://circleci.com/gh/esphas/azogi) [![Coverage Status](https://coveralls.io/repos/github/esphas/azogi/badge.svg?branch=master)](https://coveralls.io/github/esphas/azogi?branch=master)
 
 Azogi is a charset-based azogi-style random string generator.
 
