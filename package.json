@@ -1,0 +1,35 @@
+{
+  "name": "@esphas/azogi",
+  "version": "0.1.0",
+  "description": "Azogi is a charset-based azogi-style random string generator.",
+  "main": "src/index.js",
+  "scripts": {
+    "build:www": "browserify public/src.js -o public/index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/**/*.js"
+    ],
+    "collectCoverageFrom": [
+      "**/src/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esphas/azogi.git"
+  },
+  "keywords": [
+    "azogi"
+  ],
+  "author": "Esphas Kueen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esphas/azogi/issues"
+  },
+  "homepage": "https://github.com/esphas/azogi#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "jest": "^23.6.0"
+  }
+}
