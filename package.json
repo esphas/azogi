@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "build:www": "browserify public/src.js -o public/index.js",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "jest": {
     "testMatch": [
@@ -30,6 +31,7 @@
   "homepage": "https://github.com/esphas/azogi#readme",
   "devDependencies": {
     "browserify": "^16.2.3",
+    "coveralls": "^3.0.2",
     "jest": "^23.6.0"
   }
 }
