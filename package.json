@@ -1,6 +1,6 @@
 {
   "name": "@esphas/azogi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Azogi is a charset-based azogi-style random string generator.",
   "main": "src/index.js",
   "scripts": {
