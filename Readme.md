@@ -1,5 +1,10 @@
 
-# Azogi [![Azogi naming](https://img.shields.io/badge/naming-Azogi-blue.svg)](https://github.com/esphas/azogi) [![npm version](https://img.shields.io/npm/v/@esphas/azogi.svg)](https://www.npmjs.com/package/@esphas/azogi) [![CircleCI](https://circleci.com/gh/esphas/azogi.svg?style=svg)](https://circleci.com/gh/esphas/azogi) [![Coverage Status](https://coveralls.io/repos/github/esphas/azogi/badge.svg?branch=master)](https://coveralls.io/github/esphas/azogi?branch=master)
+# Azogi
+
+[![Azogi naming](https://img.shields.io/badge/naming-Azogi-blue.svg)](https://github.com/esphas/azogi)
+[![npm version](https://img.shields.io/npm/v/@esphas/azogi.svg)](https://www.npmjs.com/package/@esphas/azogi)
+[![CircleCI](https://circleci.com/gh/esphas/azogi.svg?style=svg)](https://circleci.com/gh/esphas/azogi)
+[![Coverage Status](https://coveralls.io/repos/github/esphas/azogi/badge.svg?branch=master)](https://coveralls.io/github/esphas/azogi?branch=master)
 
 Azogi is a charset-based azogi-style random string generator.
 
@@ -12,6 +17,20 @@ yarn add @esphas/azogi
 ```
 
 ## Usage
+
+### CLI
+
+```
+azogi -h
+azogi
+azogi -p Acvcv
+azogi -c
+aozgi -d A=Azogi,Igoza
+azogi -n 10
+azogi -p "user and repo" -s " " -d user=esphas -d repo=azogi,igoza
+```
+
+### Programmatic
 
 ```javascript
 const Azogi = require('azogi');
